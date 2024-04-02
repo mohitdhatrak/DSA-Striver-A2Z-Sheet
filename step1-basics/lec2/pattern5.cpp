@@ -4,6 +4,9 @@
 // * *
 // *
 
+#include <iostream>
+using namespace std;
+
 void seeding(int n) {
     for (int i = n; i > 0; i--)
     {
@@ -13,4 +16,10 @@ void seeding(int n) {
         }
         cout << "\n";
     }
+}
+
+int main ()
+{
+    int n = 3;
+    seeding(n);
 }

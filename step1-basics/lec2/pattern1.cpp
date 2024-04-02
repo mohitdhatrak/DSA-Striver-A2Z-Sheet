@@ -4,6 +4,9 @@
 // * * *
 // * * *
 
+#include <iostream>
+using namespace std;
+
 void nForest(int n) {
     for (int i = 0; i < n; i++)
     {
@@ -13,4 +16,10 @@ void nForest(int n) {
         }
         cout << "\n";
     }
+}
+
+int main ()
+{
+    int n = 3;
+    nForest(n);
 }

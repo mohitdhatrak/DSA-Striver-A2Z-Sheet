@@ -5,6 +5,9 @@
 //   ***
 //    *
 
+#include <iostream>
+using namespace std;
+
 void nStarTriangle(int n) {
     for (int i = n; i > 0; i--)
     {
@@ -22,4 +25,10 @@ void nStarTriangle(int n) {
 
         cout << "\n";
     }
+}
+
+int main ()
+{
+    int n = 3;
+    nStarTriangle(n);
 }

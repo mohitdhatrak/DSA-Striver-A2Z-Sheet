@@ -4,6 +4,9 @@
 // 1 2 
 // 1 2 3
 
+#include <iostream>
+using namespace std;
+
 void nTriangle(int n) {
     for (int i = 0; i < n; i++)
     {
@@ -13,4 +16,10 @@ void nTriangle(int n) {
         }
         cout << "\n";
     }
+}
+
+int main ()
+{
+    int n = 3;
+    nTriangle(n);
 }
