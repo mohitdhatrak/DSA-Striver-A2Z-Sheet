@@ -7,7 +7,7 @@ using namespace std;
 
 class Solution {
 private:
-	void getStr(int x, vector<string>& v) {
+	void getStr(int x, vector<string> &v) {
 		// approach 1 -
 		// v.push_back("Coding Ninjas");
 		// if (x > 1) {

@@ -20,7 +20,7 @@ public:
 	// 	return num;
 	// }
 
-	void getNum(int n, vector<int>& v) { // don't forget &
+	void getNum(int n, vector<int> &v) { // don't forget &
 		if (n > 1) {
 			getNum(n - 1, v);
 		}

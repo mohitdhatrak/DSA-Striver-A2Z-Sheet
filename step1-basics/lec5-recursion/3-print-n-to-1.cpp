@@ -7,7 +7,7 @@ using namespace std;
 
 class Solution {
 private:
-	void getNum(int n, vector<int>& v) {
+	void getNum(int n, vector<int> &v) {
 		v.push_back(n);
 
 		if (n > 1) {
