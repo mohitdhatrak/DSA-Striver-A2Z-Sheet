@@ -11,6 +11,7 @@ public:
     int removeDuplicates(vector<int>& nums) {
         int index = 0;
         for (int i = 1; i < nums.size(); ++i) {
+            // '!=' condition works for both asc and desc sorted arrays
             if (nums[i] != nums[index]) {
                 index++;
                 nums[index] = nums[i];
